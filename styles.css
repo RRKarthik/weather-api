@@ -1,7 +1,10 @@
 
+body{
+    background-color: #CDF0EA;
+}
 .container{
     text-align: center;
-    border: black dashed 3px;
+    border: black dashed 5px;
     width: fit-content;
     padding: 2%;
     height: 150px;
@@ -10,4 +13,14 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -80%);
+    background-color: #F9F9F9;
+    box-shadow: black 5px 5px;
+}
+
+form input{
+    height: 30px;
+    border: black dashed 3px;
+}
+#submit{
+    border: black dashed 2px;
 }
