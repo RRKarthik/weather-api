@@ -14,7 +14,7 @@ body{
     top: 50%;
     transform: translate(-50%, -80%);
     background-color: #F9F9F9;
-    box-shadow: black 5px 5px;
+    box-shadow: black 15px 15px 15px;
 }
 
 form input{
@@ -23,4 +23,27 @@ form input{
 }
 #submit{
     border: black dashed 2px;
+}
+
+#result{
+    text-align: center;
+    display: none;
+    border: black dashed 5px;
+    padding: 2%;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F9F9F9;
+    box-shadow: black 15px 15px 15px;
+    width: 400px;
+    height: 230px;
+    font-family: 'Gloria Hallelujah', cursive;
+    letter-spacing:1.2pt
+    
+}
+#result p{
+    font-weight: 500;
+    font-size: 25px;
 }
